@@ -1,0 +1,77 @@
+1. Variables
+variables like a little box where you keep something
+
+let x = 10;
+const name = 'Aladin';
+
+age - is a box that holds the number 10
+name - is a box that holds the word Aladin
+
+use let when you expected changes.
+use const by default.
+
+2. Data types
+
+Numbers - 10, 2.2
+strings(words) - 'hello'
+True/false - true, false
+arrays - list of things
+objects - collection of things 
+empty values - null, undefined
+
+3. Arrays
+an array is a basket with many items inside
+
+let nums = [1,2,3];
+1,2,3 items inside the basket
+[] - breakets mean its an array
+items are separated by commas
+fruits.push('orange) - adds orange into the end of basket
+nums[1]; - means 'get the item at index 1' - arrays start counting at 0
+
+4. objects
+objects lets you store information in key:value pairs
+example
+let student = {
+    name: 'Aladin',
+    age: 211;
+    grade: "a"
+};
+breakdown:
+{} - curly braces mean "this is an object"
+name: "Aladin" - key = name, value = Aladin
+age: 21 - key = age, value = 21
+commas separate properties
+
+yo can access values like this:
+student.age; - give 21
+student.name; - give aladin
+
+5. Loops 
+a loop repeats something many times
+example:
+for (let i =0; i<5; i++){
+    console.log('hi');
+}
+
+for - tells the computer you want a loop
+let i = 0 - start value begins at 0
+i < 5; - condition - keep looking while i is less than 5
+i++; - increase i by 1 each loop
+
+{console.log('hi);} - the code inside the curly braces runs again and again - this loop prints 'hi' five times
+
+6. Functions
+A function is a piece of code that does a job when you call it
+
+function add(a,b){
+    return a + b;
+}
+ 
+function - keyword that tells the computer youre making a function
+add - name of the function
+(a,b) - inputs(we call them parameters)
+{...} - function body(the code it will run)
+return - the value the function gives back
+
+add(3,4) - the function return 7

@@ -1,0 +1,25 @@
+PART 1
+1. <p> used to define a paragraph of text
+2. <h1><h2> - h1 is main heading of the page
+    h2 is sub-heading under h1
+3.<table>
+    <tr>
+        <td>A</td><td>B</td>
+    </tr>
+    <tr>
+        <td>C</td><td>D</td>
+    </tr>
+    <tr>
+        <td>E</td><td>F</td>
+    </tr>
+</table>
+4. CSS controls how HTML looks. It is used to style layout, colors, fonts,spacing,and responsiveness.
+5. <link rel="stylesheet" href="style.css">
+6. h1 { color: blue; }
+7. <thead> holds header rows
+    <tbody> holds main data
+    <tfoot> holds summary/footer rows
+
+8. <style> used to write internal CSS inside the HTMl file
+9. inline CSS written directly inside an element
+    <p style="color:red;">Red text</p>

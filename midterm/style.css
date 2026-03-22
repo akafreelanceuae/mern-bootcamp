@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 40px auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.h1 { background-color: lightblue; }
+.h2 { background-color: lightgreen; }
+.h3 { background-color: lightcoral; }
+.h4 { background-color: khaki; }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 1 calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <input id="num1" type="number" placeholder="Number 1">
+    <input id="num2" type="number" placeholder="Number 2">
+
+    <button onclick="calculate('+')">+</button>
+    <button onclick="calculate('-')">-</button>
+    <button onclick="calculate('*')">*</button>
+    <button onclick="calculate('/')">/</button>
+
+    <h2 id="result"></h2>
+
+    <script>
+        function calculate(op){
+            const a = Number(document.getElementById('num1').value);
+            const b = Number(document.getElenentById('num2').value);
+
+            let res;
+
+            if (op === "+") res = a + b;
+            if (op === "-") res = a - b;
+            if (op === "*") res = a * b;
+            if (op === "/") res = a / b;
+
+            documnet.getElementById('result').innerText = 'Result:' + res;
+        }
+    </script>
+</body>
+</html>
